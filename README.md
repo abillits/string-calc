@@ -1,16 +1,14 @@
 # StringCalc
-
-[![Build Status](https://travis-ci.org/chriskonnertz/string-calc.png)](https://travis-ci.org/chriskonnertz/string-calc)
-[![GitHub license](https://img.shields.io/badge/license-MIT-blue.svg)](https://raw.githubusercontent.com/chriskonnertz/string-calc/master/LICENSE)
-
 StringCalc is a PHP calculator library for mathematical terms (expressions) passed as strings. 
+
+This version includes a division by zero fix
 
 ## Installation
 
 Through Composer:
 
 ```
-composer require chriskonnertz/string-calc
+composer require abillits/string-calc
 ```
 
 From then on you may run `composer update` to get the latest version of this library.
