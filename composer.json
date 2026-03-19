@@ -15,6 +15,5 @@
     "psr-0": {
       "ChrisKonnertz\\StringCalc": "src/"
     }
-  },
-  "minimum-stability": "dev"
+  }
 }
