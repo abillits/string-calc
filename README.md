@@ -1,7 +1,7 @@
 # StringCalc
 StringCalc is a PHP calculator library for mathematical terms (expressions) passed as strings. 
 
-This version includes a division by zero fix
+This version includes a division by zero fix by mantasZet
 
 ## Installation
 
