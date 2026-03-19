@@ -1,6 +1,6 @@
 <?php
 
-namespace ChrisKonnertz\StringCalc\Symbols;
+namespace abillits\StringCalc\Symbols;
 
 /**
  * This class is the base class for all symbols that are of the type "opening bracket".

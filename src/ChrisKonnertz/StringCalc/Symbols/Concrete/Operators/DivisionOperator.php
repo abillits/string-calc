@@ -1,15 +1,15 @@
 <?php
 
-namespace ChrisKonnertz\StringCalc\Symbols\Concrete\Operators;
+namespace abillits\StringCalc\Symbols\Concrete\Operators;
 
-use ChrisKonnertz\StringCalc\Symbols\AbstractOperator;
+use abillits\StringCalc\Symbols\AbstractOperator;
 
 /**
  * Operator for mathematical division.
  * Example: "6/2" => 3, "6/0" => InvalidArgumentException
  * @see https://en.wikipedia.org/wiki/Division_(mathematics)
  *
- * @package ChrisKonnertz\StringCalc\Symbols\Concrete\Operators
+ * @package abillits\StringCalc\Symbols\Concrete\Operators
  */
 class DivisionOperator extends AbstractOperator
 {

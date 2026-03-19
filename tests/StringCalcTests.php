@@ -18,18 +18,18 @@ class StringCalcTest extends \PHPUnit\Framework\TestCase
     const RESULT_DELTA = 0.0001;
 
     /**
-     * @var \ChrisKonnertz\StringCalc\StringCalc|null
+     * @var \abillits\StringCalc\StringCalc|null
      */
     private $stringCalc = null;
 
     /**
      * Creates and returns an instance of the main class
      *
-     * @return \ChrisKonnertz\StringCalc\StringCalc
+     * @return \abillits\StringCalc\StringCalc
      */
     protected function getInstance()
     {
-        return new ChrisKonnertz\StringCalc\StringCalc();
+        return new abillits\StringCalc\StringCalc();
     }
 
     public function testTokenize()
@@ -87,7 +87,7 @@ class StringCalcTest extends \PHPUnit\Framework\TestCase
 
         $stringHelper = $container->get('stringcalc_stringhelper');
 
-        $symbol = new ChrisKonnertz\StringCalc\Symbols\Concrete\Constants\PiConstant($stringHelper);
+        $symbol = new abillits\StringCalc\Symbols\Concrete\Constants\PiConstant($stringHelper);
 
         $replaceSymbol = get_class($symbol);
 
@@ -236,7 +236,7 @@ class StringCalcTest extends \PHPUnit\Framework\TestCase
     public function testRandomCalculations()
     {
         $this->stringCalc = $this->getInstance();
-        $grammar = new \ChrisKonnertz\StringCalc\Grammar\StringCalcGrammar();
+        $grammar = new \abillits\StringCalc\Grammar\StringCalcGrammar();
 
         $numberOfCalculations = 100;
         $calculations = [];

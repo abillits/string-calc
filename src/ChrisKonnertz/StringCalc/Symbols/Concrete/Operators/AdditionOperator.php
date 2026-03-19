@@ -1,15 +1,15 @@
 <?php
 
-namespace ChrisKonnertz\StringCalc\Symbols\Concrete\Operators;
+namespace abillits\StringCalc\Symbols\Concrete\Operators;
 
-use ChrisKonnertz\StringCalc\Symbols\AbstractOperator;
+use abillits\StringCalc\Symbols\AbstractOperator;
 
 /**
  * Operator for mathematical addition.
  * Example: "1+2" => 3
  * @see https://en.wikipedia.org/wiki/Addition
  *
- * @package ChrisKonnertz\StringCalc\Symbols\Concrete\Operators
+ * @package abillits\StringCalc\Symbols\Concrete\Operators
  */
 class AdditionOperator extends AbstractOperator
 {

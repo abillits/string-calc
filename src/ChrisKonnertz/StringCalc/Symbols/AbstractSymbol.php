@@ -1,9 +1,9 @@
 <?php
 
-namespace ChrisKonnertz\StringCalc\Symbols;
+namespace abillits\StringCalc\Symbols;
 
-use ChrisKonnertz\StringCalc\Exceptions\InvalidIdentifierException;
-use ChrisKonnertz\StringCalc\Support\StringHelperInterface;
+use abillits\StringCalc\Exceptions\InvalidIdentifierException;
+use abillits\StringCalc\Support\StringHelperInterface;
 
 /**
  * A term is built of symbols: numbers/constants, variables, brackets, operators and functions.

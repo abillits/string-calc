@@ -1,12 +1,12 @@
 <?php
 
-namespace ChrisKonnertz\StringCalc\Grammar\Expressions;
+namespace abillits\StringCalc\Grammar\Expressions;
 
 /**
  * This is a container expression. The expressions that it contains are
  * linked with an AND. They (as a whole) will be repeated for given times.
  *
- * @package ChrisKonnertz\StringCalc\Grammar\Expressions
+ * @package abillits\StringCalc\Grammar\Expressions
  */
 class RepeatedAndExpression extends AbstractContainerExpression
 {

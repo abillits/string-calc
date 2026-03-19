@@ -1,17 +1,17 @@
 <?php
 
-namespace ChrisKonnertz\StringCalc\Container;
+namespace abillits\StringCalc\Container;
 
-use ChrisKonnertz\StringCalc\Container\ServiceProviders\CalculatorServiceProvider;
-use ChrisKonnertz\StringCalc\Container\ServiceProviders\InputStreamServiceProvider;
-use ChrisKonnertz\StringCalc\Container\ServiceProviders\StringHelperServiceProvider;
-use ChrisKonnertz\StringCalc\Container\ServiceProviders\SymbolContainerServiceProvider;
+use abillits\StringCalc\Container\ServiceProviders\CalculatorServiceProvider;
+use abillits\StringCalc\Container\ServiceProviders\InputStreamServiceProvider;
+use abillits\StringCalc\Container\ServiceProviders\StringHelperServiceProvider;
+use abillits\StringCalc\Container\ServiceProviders\SymbolContainerServiceProvider;
 
 /**
  * This class is where all service providers are registered
  * (except of those that are registered at runtime).
  *
- * @package ChrisKonnertz\StringCalc\Container
+ * @package abillits\StringCalc\Container
  */
 class ServiceProviderRegistry implements ServiceProviderRegistryInterface
 {

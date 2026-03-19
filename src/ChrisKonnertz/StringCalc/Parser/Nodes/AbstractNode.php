@@ -1,6 +1,6 @@
 <?php
 
-namespace ChrisKonnertz\StringCalc\Parser\Nodes;
+namespace abillits\StringCalc\Parser\Nodes;
 
 use Closure;
 
@@ -8,7 +8,7 @@ use Closure;
  * This is the abstract base class for all parser nodes.
  * It does not implement any properties or methods.
  *
- * @package ChrisKonnertz\StringCalc\Parser
+ * @package abillits\StringCalc\Parser
  */
 abstract class AbstractNode
 {

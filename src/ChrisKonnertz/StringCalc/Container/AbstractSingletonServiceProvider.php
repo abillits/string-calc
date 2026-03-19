@@ -1,13 +1,13 @@
 <?php
 
-namespace ChrisKonnertz\StringCalc\Container;
+namespace abillits\StringCalc\Container;
 
 /**
  * This class is the base class for all providers that mimic the singleton
  * pattern: They always return the same object. The concrete provider only
  * has to implement the createService() method.
  *
- * @package ChrisKonnertz\StringCalc\Container
+ * @package abillits\StringCalc\Container
  */
 abstract class AbstractSingletonServiceProvider extends AbstractServiceProvider
 {

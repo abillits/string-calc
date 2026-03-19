@@ -1,10 +1,10 @@
 <?php
 
-namespace ChrisKonnertz\StringCalc\Tokenizer;
+namespace abillits\StringCalc\Tokenizer;
 
-use ChrisKonnertz\StringCalc\Exceptions\NotFoundException;
-use ChrisKonnertz\StringCalc\Exceptions\StringCalcException;
-use ChrisKonnertz\StringCalc\Support\StringHelperInterface;
+use abillits\StringCalc\Exceptions\NotFoundException;
+use abillits\StringCalc\Exceptions\StringCalcException;
+use abillits\StringCalc\Support\StringHelperInterface;
 
 /**
  * "Tokenization is the process of demarcating and possibly classifying
@@ -13,7 +13,7 @@ use ChrisKonnertz\StringCalc\Support\StringHelperInterface;
  * parts (these are the symbols of the term / the tokens).
  * The tokenizer is not very smart, it does not care for grammar.
  *
- * @package ChrisKonnertz\StringCalc\Tokenizer
+ * @package abillits\StringCalc\Tokenizer
  */
 class Tokenizer
 {

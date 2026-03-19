@@ -1,15 +1,15 @@
 <?php
 
-namespace ChrisKonnertz\StringCalc\Symbols\Concrete\Operators;
+namespace abillits\StringCalc\Symbols\Concrete\Operators;
 
-use ChrisKonnertz\StringCalc\Symbols\AbstractOperator;
+use abillits\StringCalc\Symbols\AbstractOperator;
 
 /**
  * Operator for mathematical exponentiation.
  * Example: "3^2" => 9, "-3^2" => -9, "3^-2" equals "3^(-2)"
  * @see https://en.wikipedia.org/wiki/Exponentiation
  *
- * @package ChrisKonnertz\StringCalc\Symbols\Concrete\Operators
+ * @package abillits\StringCalc\Symbols\Concrete\Operators
  */
 class ExponentiationOperator extends AbstractOperator
 {

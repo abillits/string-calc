@@ -1,8 +1,8 @@
 <?php
 
-namespace ChrisKonnertz\StringCalc\Symbols\Concrete\Constants;
+namespace abillits\StringCalc\Symbols\Concrete\Constants;
 
-use ChrisKonnertz\StringCalc\Symbols\AbstractConstant;
+use abillits\StringCalc\Symbols\AbstractConstant;
 
 /**
  * PHP M_2_SQRTPI constant

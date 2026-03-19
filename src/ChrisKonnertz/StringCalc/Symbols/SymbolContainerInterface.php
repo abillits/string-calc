@@ -1,11 +1,11 @@
 <?php
 
-namespace ChrisKonnertz\StringCalc\Symbols;
+namespace abillits\StringCalc\Symbols;
 
 /**
  * This is an interface for the SymbolContainer class.
  *
- * @package ChrisKonnertz\StringCalc
+ * @package abillits\StringCalc
  */
 interface SymbolContainerInterface
 {

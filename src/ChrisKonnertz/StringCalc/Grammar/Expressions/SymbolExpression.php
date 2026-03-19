@@ -1,11 +1,11 @@
 <?php
 
-namespace ChrisKonnertz\StringCalc\Grammar\Expressions;
+namespace abillits\StringCalc\Grammar\Expressions;
 
 /**
  * This class represents language symbols.
  *
- * @package ChrisKonnertz\StringCalc\Grammar\Expressions
+ * @package abillits\StringCalc\Grammar\Expressions
  */
 class SymbolExpression extends AbstractExpression
 {

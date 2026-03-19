@@ -1,9 +1,9 @@
 <?php
 
-namespace ChrisKonnertz\StringCalc\Symbols\Concrete\Functions;
+namespace abillits\StringCalc\Symbols\Concrete\Functions;
 
-use ChrisKonnertz\StringCalc\Exceptions\NumberOfArgumentsException;
-use ChrisKonnertz\StringCalc\Symbols\AbstractFunction;
+use abillits\StringCalc\Exceptions\NumberOfArgumentsException;
+use abillits\StringCalc\Symbols\AbstractFunction;
 
 /**
  * PHP exp() function aka calculates the exponent of e.

@@ -1,10 +1,10 @@
 <?php
 
-namespace ChrisKonnertz\StringCalc\Parser\Nodes;
+namespace abillits\StringCalc\Parser\Nodes;
 
-use ChrisKonnertz\StringCalc\Symbols\AbstractOperator;
-use ChrisKonnertz\StringCalc\Symbols\AbstractSymbol;
-use ChrisKonnertz\StringCalc\Tokenizer\Token;
+use abillits\StringCalc\Symbols\AbstractOperator;
+use abillits\StringCalc\Symbols\AbstractSymbol;
+use abillits\StringCalc\Tokenizer\Token;
 use Closure;
 
 /**
@@ -14,7 +14,7 @@ use Closure;
  * symbol node represents a mathematical symbol.
  * Nodes are created by the parser.
  *
- * @package ChrisKonnertz\StringCalc\Parser
+ * @package abillits\StringCalc\Parser
  */
 class SymbolNode extends AbstractNode
 {

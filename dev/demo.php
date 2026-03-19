@@ -46,14 +46,14 @@
     <div class="block result">
         <?php
 
-            $stringCalc = new ChrisKonnertz\StringCalc\StringCalc();
+            $stringCalc = new abillits\StringCalc\StringCalc();
 
             if ($term !== null) {
                 try {
                     $result = $stringCalc->calculate($term);
 
                     echo '<div class="success">Result: <code><b>' . $result . '</b></code> (Type: ' . gettype($result) . ')</div>';
-                } catch (ChrisKonnertz\StringCalc\Exceptions\StringCalcException $exception) {
+                } catch (abillits\StringCalc\Exceptions\StringCalcException $exception) {
                     echo '<div class="error">'.$exception->getMessage();
                     if ($exception->getPosition()) {
                         echo ' at position <b>' . $exception->getPosition() . '</b>';
@@ -73,7 +73,7 @@
     <div class="block grammar">
         <?php
 
-            $grammar = new \ChrisKonnertz\StringCalc\Grammar\StringCalcGrammar();
+            $grammar = new \abillits\StringCalc\Grammar\StringCalcGrammar();
             echo '<h4>Grammar rules</h4><pre>'.$grammar->__toString().'</pre>';
 
         ?>

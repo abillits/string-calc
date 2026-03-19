@@ -1,8 +1,8 @@
 <?php
 
-namespace ChrisKonnertz\StringCalc\Tokenizer;
+namespace abillits\StringCalc\Tokenizer;
 
-use ChrisKonnertz\StringCalc\Support\StringHelperInterface;
+use abillits\StringCalc\Support\StringHelperInterface;
 
 /**
  * This class operates on the lowest level on an input stream.
@@ -10,7 +10,7 @@ use ChrisKonnertz\StringCalc\Support\StringHelperInterface;
  * the readCurrent() method to read the input at the current
  * position.
  *
- * @package ChrisKonnertz\StringCalc\Tokenizer
+ * @package abillits\StringCalc\Tokenizer
  */
 class InputStream implements InputStreamInterface
 {

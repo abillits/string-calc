@@ -1,12 +1,12 @@
 <?php
 
-namespace ChrisKonnertz\StringCalc\Grammar\Expressions;
+namespace abillits\StringCalc\Grammar\Expressions;
 
 /**
  * This expression class is the base class for all expression classes
  * that are containers for other expressions.
  *
- * @package ChrisKonnertz\StringCalc\Grammar\Expressions
+ * @package abillits\StringCalc\Grammar\Expressions
  */
 abstract class AbstractContainerExpression extends AbstractExpression
 {

@@ -1,21 +1,21 @@
 <?php
 
-namespace ChrisKonnertz\StringCalc\Parser;
+namespace abillits\StringCalc\Parser;
 
-use ChrisKonnertz\StringCalc\Exceptions\NotFoundException;
-use ChrisKonnertz\StringCalc\Exceptions\ParserException;
-use ChrisKonnertz\StringCalc\Parser\Nodes\AbstractNode;
-use ChrisKonnertz\StringCalc\Parser\Nodes\ContainerNode;
-use ChrisKonnertz\StringCalc\Parser\Nodes\FunctionNode;
-use ChrisKonnertz\StringCalc\Parser\Nodes\SymbolNode;
-use ChrisKonnertz\StringCalc\Support\UtilityTrait;
-use ChrisKonnertz\StringCalc\Symbols\AbstractClosingBracket;
-use ChrisKonnertz\StringCalc\Symbols\AbstractFunction;
-use ChrisKonnertz\StringCalc\Symbols\AbstractOpeningBracket;
-use ChrisKonnertz\StringCalc\Symbols\AbstractOperator;
-use ChrisKonnertz\StringCalc\Symbols\Concrete\Number;
-use ChrisKonnertz\StringCalc\Symbols\SymbolContainerInterface;
-use ChrisKonnertz\StringCalc\Tokenizer\Token;
+use abillits\StringCalc\Exceptions\NotFoundException;
+use abillits\StringCalc\Exceptions\ParserException;
+use abillits\StringCalc\Parser\Nodes\AbstractNode;
+use abillits\StringCalc\Parser\Nodes\ContainerNode;
+use abillits\StringCalc\Parser\Nodes\FunctionNode;
+use abillits\StringCalc\Parser\Nodes\SymbolNode;
+use abillits\StringCalc\Support\UtilityTrait;
+use abillits\StringCalc\Symbols\AbstractClosingBracket;
+use abillits\StringCalc\Symbols\AbstractFunction;
+use abillits\StringCalc\Symbols\AbstractOpeningBracket;
+use abillits\StringCalc\Symbols\AbstractOperator;
+use abillits\StringCalc\Symbols\Concrete\Number;
+use abillits\StringCalc\Symbols\SymbolContainerInterface;
+use abillits\StringCalc\Tokenizer\Token;
 use Closure;
 
 /**
@@ -24,7 +24,7 @@ use Closure;
  * returns an array of nodes as output.
  * These nodes are the syntax tree of the term.
  *
- * @package ChrisKonnertz\StringCalc\Parser
+ * @package abillits\StringCalc\Parser
  */
 class Parser
 {

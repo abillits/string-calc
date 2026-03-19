@@ -1,6 +1,6 @@
 <?php
 
-namespace ChrisKonnertz\StringCalc\Parser\Nodes;
+namespace abillits\StringCalc\Parser\Nodes;
 
 /**
  * A function in a term consists of the name of the function
@@ -11,7 +11,7 @@ namespace ChrisKonnertz\StringCalc\Parser\Nodes;
  * arguments in the $childNodes property which is inherited
  * from the ContainerNode class.
  *
- * @package ChrisKonnertz\StringCalc\Parser
+ * @package abillits\StringCalc\Parser
  */
 class FunctionNode extends ContainerNode
 {
