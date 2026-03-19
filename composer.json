@@ -13,7 +13,7 @@
   },
   "autoload": {
     "psr-0": {
-      "abillits\\StringCalc": "src/"
+      "ChrisKonnertz\\StringCalc": "src/"
     }
   },
   "minimum-stability": "dev"
