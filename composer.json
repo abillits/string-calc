@@ -1,5 +1,5 @@
 {
-  "name": "chriskonnertz/string-calc",
+  "name": "abillits/string-calc",
   "description": "StringCalc is a PHP calculator library for mathematical terms (expressions) passed as strings.",
   "keywords": ["stringcalc", "string calc", "string-calc", "math", "calculation", "term", "expression", "parser"],
   "license": "MIT",
@@ -13,7 +13,7 @@
   },
   "autoload": {
     "psr-0": {
-      "ChrisKonnertz\\StringCalc": "src/"
+      "abillits\\StringCalc": "src/"
     }
   },
   "minimum-stability": "dev"
